@@ -1,0 +1,13 @@
+TrackFlight When does {AirlineName} {FlightNumber} land?
+TrackFlight When does flight {AirlineName} {FlightNumber} land?
+TrackFlight What is {AirlineName} {FlightNumber} landing time?
+TrackFlight What is flight {AirlineName} {FlightNumber} landing time?
+TrackFlight How long until {AirlineName} {FlightNumber} lands?
+TrackFlight How long until flight {AirlineName} {FlightNumber} lands?
+TrackFlight When is {AirlineName} {FlightNumber} landing?
+TrackFlight When is flight {AirlineName} {FlightNumber} landing?
+TrackFlight What is the landing time for {AirlineName} {FlightNumber}?
+TrackFlight What is the landing time for flight {AirlineName} {FlightNumber}?
+TrackFlight Tell me when {AirlineName} {FlightNumber} lands
+TrackFlight Tell me when flight {AirlineName} {FlightNumber} lands
+

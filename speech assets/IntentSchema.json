@@ -1,0 +1,26 @@
+{
+  "intents": [
+    {
+      "intent": "TrackFlight",
+      "slots": [
+        {
+          "name": "airline",
+          "type": "LIST_OF_AIRLINES"
+        },
+        {
+          "name": "flightNumber",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
