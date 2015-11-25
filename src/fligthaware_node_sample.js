@@ -12,7 +12,6 @@ var fxml_url = 'http://flightxml.flightaware.com/json/FlightXML2/';
 var username = 'memodoring';
 var apiKey = 'b64770ae6b5c6a2f0aef95bcff641649a77cf997';
 
-
 restclient.get(fxml_url + 'FlightInfo', {
   username: username,
   password: apiKey,
@@ -27,5 +26,9 @@ restclient.get(fxml_url + 'FlightInfo', {
     console.log(flights[i].ident +" arrival: "+ date);
   };
 });
+console.log(restclient.get(fxml_url + 'FlightInfo', {username: username, password: apiKey, query:{ident:'ASA746', howMany: 3}}));
+
+
+
 //{ FlightInfoResult: { next_offset: 1, flights: [ [Object] ] } }
 //estimatedarrivaltime: 1448411982,
